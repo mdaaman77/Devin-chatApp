@@ -1,0 +1,76 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node Modules
+node_modules/
+.pnp/
+.pnp.js
+
+# Build Directories
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
+frontend/node_modules/
+backend/node_modules/
+
+# Production directories
+public/
+out/
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts
+*.d.ts.map
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Vue.js
+.vscode/settings.json
+.vscode/todo.md
+.vscode/launch.json
+
+# Coverage
+coverage/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# MacOS
+.DS_Store
+
+# Temporary Files
+*.temp
+*.tmp
+*.bak
+*.backup
+
+# React Native
+ios/
+android/
+*.keystore
+
+# Other
+*.lock
+*.log
