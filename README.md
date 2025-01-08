@@ -186,7 +186,7 @@ The backend is built with Node.js and Express, providing a robust and scalable s
 - `public/`: Contains static files for the client-side application.
 
 ## Flow Chart
-```mermaid
+
 graph TD;
     A[Client] -->|WebSocket| B[Server];
     B --> C[Authenticate User];
@@ -194,9 +194,9 @@ graph TD;
     B --> E[Handle Chat Rooms];
     C --> F[Database];
     D --> F;
-   ```markdown
    
-   Contact
+   
+Contact -
 Name - @mdaaman77
 
 Project Link: https://github.com/mdaaman77/Devin-chatApp 
